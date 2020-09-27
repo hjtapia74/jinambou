@@ -1,0 +1,157 @@
+################## Hero area ##################
+hero_area:
+  enable : true
+  bg_image : "images/CasaAzul.png"
+  overlay : true
+
+################### Gallery ###################
+gallery:
+  enable : true
+  title : "Especialidades"
+  images:
+    - "images/slider/platillo1.jpg"
+    - "images/slider/platillo2.jpg"
+    - "images/slider/platillo3.jpg"
+    - "images/slider/platillo4.jpg"
+    - "images/slider/platillo5.jpg"
+    - "images/slider/platillo6.jpg"
+    - "images/slider/platillo7.jpg"
+    - "images/slider/platillo8.jpg"
+
+################### Menu ###################
+menu:
+  enable : false
+  title : "Nuestro Menu"
+  menu_item :
+  - title : "price"
+    image : "images/entradas.jpg"
+
+  - title : "kushiage"
+    image : "images/kushiage.jpg"
+
+################ About #######################
+about:
+  enable : true
+  image : "images/logo.jpg"
+  #title : "Featured Your <span> Restaurant’s</span> Website Has To Look Good"#
+  description : "El nombre de Jinambou significa segundo hijo varón en japonés, se preguntarán porque este nombre… Gracias a la hermandad Toluca-Urawa, a su gran hospitalidad, conocimos el sabor de la verdadera comida japonesa, en un pequeño restaurante en la prefectura de Saitama llamado Jinambou. Esperamos compartirles de este sueño, el sabor y aroma que emana este gran país."
+
+################# Blog ######################
+blog:
+  enable : true
+  title : "Nuestro <span>Menu</span>"
+  bg_image : "images/109292427_3967889769950955_7856920049965229588_n.jpg"
+  overlay : true
+
+
+################# food Menu ################
+pricing:
+  enable : false
+  title : "Menu"
+  #description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco"
+  subtitle : "Entradas"
+  pricing_item:
+  - title: "Edamame natural (150g)"
+    description: "Vainas de frijol japonés al vapor con sal"
+    price : "$ 55.00"
+
+  - title: "Edamame picante"
+    description: "Vainas de frijol japonés con jugo de limón, sal y picante"
+    price : "$ 57.00"
+
+  - title: "Gyosas de Carne"
+    description: "6 Ravioles japoneses rellenos"
+    price : "$66"
+
+  - title: "Gyosas de Camarón"
+    description: "6 Ravioles japoneses rellenos"
+    price : "$77"
+
+  - title: "Gyosas Mixtas"
+    description: "6 Ravioles japoneses rellenos"
+    price : "$77"
+
+  - title: "Baby Squid"
+    description: "Calamares rellenos de pasta de cangrejo, masago y mayonesa bañados en salsa dulce"
+    price : "$ 75.00"
+
+  - title: "Ebi Aguachile"
+    description: "Aguachile de camarón estilo jinambou (8 camarones)"
+    price : "$ 152.00"
+
+  - title: "Calamares Odaiba"
+    description: "100g de calamares fritos con un toque de picante"
+    price : "$ 118.00"
+
+  - title: "Camarones Okinawa"
+    description: "24 camarones pequeños al tempura con salsa de tamarindo, salsa sriracha y aderezo de mayonesa al wasabi"
+    price : "$ 128.00"
+
+  - title: "Ceviche"
+    description: "Salmón, pescado, pulpo con mango y pepino con un toque de picante"
+    price : "$ 118.00"
+
+kushiage:
+  enable : true
+  title : "Menu"
+  #description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco"
+  subtitle : "Kushiage"
+  pricing_item:
+  - title: "Kushiage de platano"
+    description: "Brochetas empanizadas"
+    price : "$23.00 P/Pieza ----- $125.00 6/Piezas"
+
+  - title: "Kushiage de platano c/queso"
+    description: "Brochetas empanizadas"
+    price : "$25.00 P/Pieza ----- $130.00 6/Piezas"
+
+  - title: "Kushiage de queso"
+    description: "Brochetas empanizadas"
+    price : "$27.00 P/Pieza ----- $148.00 6/Piezas"
+
+  - title: "Kushiage de pollo"
+    description: "Brochetas empanizadas"
+    price : "$27.00 P/Pieza ----- $148.00 6/Piezas"
+
+  - title: "Kushiage de filete"
+    description: "Brochetas empanizadas"
+    price : "$29.00 P/Pieza ----- $155.00 6/Piezas"
+
+  - title: "Chizu Kani"
+    description: "Cangrejo con queso crema"
+    price : "$35.00 P/Pieza ----- $175.00 6/Piezas"
+
+  - title: "Chizu Ebi"
+    description: "Camaron con queso crema"
+    price : "$39.00 P/Pieza ----- $210.00 6/Piezas"
+
+  - title: "Chizu Sake"
+    description: "Salmón con queso crema"
+    price : "$39.00 P/Pieza ----- $210.00 6/Piezas"
+
+  - title: "Kushiages de pescado"
+    description: ""
+    price : "$29.00 P/Pieza ----- $145.00 6/Piezas"
+
+  - title: "Kushiages Mixtos 10 Pzas"
+    description: "2pz de pollo, 2pz de plátano, 2pz de platano c/queso, 2pz de queso, 2pz de pescado"
+    price : "$159.00"
+
+
+################### Subscription ################
+subscription:
+  enable : true
+  bg_image : "images/44505512_320210918794115_3862566013267319787_n.jpg"
+  title : "Subscribete a nuestras <span>OFERTAS</span>"
+  description : "Recibe cupones de descuento y notificaciones sobre nuevos platillos"
+  #Mailchimp subscription configaration
+  form_action : "https://themefisher.us9.list-manage.com/subscribe/post?u=f95ece2732a6e9925f2e70a61&amp;id=b1e227529e"
+  formName : "b_f95ece2732a6e9925f2e70a61_b1e227529e"
+  overlay : true
+
+################ Contact #######################
+contact:
+  enable : false
+  title: "Let's <span> Contact Us </span>"
+  subtitle: "SIGN UP FOR EMAIL ALERTS"
+  form_action : "#" #contact form works with formspree.io
